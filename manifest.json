@@ -10,7 +10,7 @@
   "icons": {},
   "content_scripts": [
     {
-      "matches": ["https://blank.org/*"],
+      "matches": ["https://blank.org/*", "https://codeforces.com/profile/**"],
       "js": ["content-script/src/main.jsx"],
       "media": []
     }
